@@ -4,6 +4,8 @@
 cargo run -p ch01_variables
 ```
 
+> Go 主栈读者：每个例子的 Go 平行写法见 [GO_COMPARISON.md](GO_COMPARISON.md)，可运行代码在 `go/main.go`（输出与 Rust 版本一致）。
+
 ## 学习目标
 
 - 理解 Rust 默认不可变，以及 `mut` 的确切含义

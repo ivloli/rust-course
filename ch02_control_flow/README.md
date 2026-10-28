@@ -4,6 +4,8 @@
 cargo run -p ch02_control_flow
 ```
 
+> Go 主栈读者：每个例子的 Go 平行写法见 [GO_COMPARISON.md](GO_COMPARISON.md)，可运行代码在 `go/main.go`（输出与 Rust 版本一致）。
+
 ## 学习目标
 
 - 函数定义、返回值与「最后一行表达式即返回值」的写法

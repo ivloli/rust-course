@@ -31,6 +31,8 @@ cargo run -p ch01_variables      # 从第 1 章开始
 | 13 | Axum 进阶：中间件、错误、优雅关闭、性能 | `cargo run -p ch13_axum_advanced` |
 | 14 | 综合实战：LLM Agent + Axum 服务 | `cargo run -p ch14_agent_server --bin agent` / `--bin server` |
 
+每章都配有 **Go 平行实现**：`chXX/go/` 下是仅用标准库、可独立运行的 Go 1.22+ 程序，`chXX/GO_COMPARISON.md` 逐例对照 Rust 与 Go 的写法。Go 主栈读者可以先看对照文档，再两边各跑一遍。
+
 ## 推荐学习路线
 
 1. **第 1 周**：01–05。重点是所有权、借用、枚举与迭代器，每天跑一遍并完成练习。

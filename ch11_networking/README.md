@@ -5,6 +5,8 @@ cargo run -p ch11_networking                # 纯本地 TCP 演示，无需外�
 cargo run -p ch11_networking -- --http      # 额外演示 reqwest 访问公网
 ```
 
+> Go 主栈读者：每个例子的 Go 平行写法见 [GO_COMPARISON.md](GO_COMPARISON.md)，可运行代码在 `go/main.go`。（端口随机、客户端/服务端输出行序不确定，对比时需归一化端口并排序。）
+
 ## 学习目标
 
 - 用 Tokio 写一个 TCP echo 服务器：accept → spawn → 读写

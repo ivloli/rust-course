@@ -4,6 +4,8 @@
 cargo run -p ch06_errors
 ```
 
+> Go 主栈读者：每个例子的 Go 平行写法见 [GO_COMPARISON.md](GO_COMPARISON.md)，可运行代码在 `go/main.go`（输出结构一致；`abc` 的解析错误原文不同，见文档）。
+
 ## 学习目标
 
 - 区分「可恢复错误」`Result<T, E>` 与「不可恢复错误」`panic!`

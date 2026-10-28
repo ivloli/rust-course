@@ -4,6 +4,8 @@
 cargo run -p ch09_threads
 ```
 
+> Go 主栈读者：每个例子的 Go 平行写法见 [GO_COMPARISON.md](GO_COMPARISON.md)，可运行代码在 `go/main.go`。（两个 scoped 线程的输出顺序不确定，Rust 与 Go 都可能互换；对比时排序即可。）
+
 ## 学习目标
 
 - `thread::spawn` / `join`：创建与等待线程，拿到返回值

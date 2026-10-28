@@ -9,6 +9,8 @@ curl -i http://127.0.0.1:3000/fail      # 404 + JSON 错误
 curl -i http://127.0.0.1:3000/ -H 'Origin: http://example.com'
 ```
 
+> Go 主栈读者：每个例子的 Go 平行写法见 [GO_COMPARISON.md](GO_COMPARISON.md)，可运行代码在 `go/main.go`（HTTP 行为与 Rust 版本对应）。
+
 在运行终端按 `Ctrl-C`，观察 graceful shutdown 日志。
 
 ## 学习目标

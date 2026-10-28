@@ -34,6 +34,8 @@ cargo run -p ch14_agent_server --bin agent
 cargo run -p ch14_agent_server --bin agent -- "3*7 等于多少？北京天气如何？"
 ```
 
+> Go 主栈读者：每个模块与接口的 Go 平行写法见 [GO_COMPARISON.md](GO_COMPARISON.md)，可运行代码在 `go/`（`go run ./cmd/agent` / `go run ./cmd/server`）。
+
 预期输出会依次出现两次工具调用（calculator、weather），最后给出汇总答案。
 
 ## 二、接入真实模型（OpenAI 兼容）

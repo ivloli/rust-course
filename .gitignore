@@ -1,3 +1,6 @@
 /target
 **/*.rs.bk
 .DS_Store
+
+# Go 对照程序的本地构建产物
+/ch*/go/ch*_go

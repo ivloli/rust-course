@@ -4,6 +4,8 @@
 cargo run -p ch10_async_tokio
 ```
 
+> Go 主栈读者：每个例子的 Go 平行写法见 [GO_COMPARISON.md](GO_COMPARISON.md)，可运行代码在 `go/main.go`。（耗时数值必然不同：Go 用 goroutine 而非惰性 Future。）
+
 ## 学习目标
 
 - 理解 `async fn` 返回 Future，Future 是惰性的

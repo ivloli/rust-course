@@ -5,6 +5,8 @@ cargo run -p ch08_modules     # 运行示例
 cargo test -p ch08_modules    # 运行 6 个单元测试 + 1 个集成测试
 ```
 
+> Go 主栈读者：每个例子的 Go 平行写法见 [GO_COMPARISON.md](GO_COMPARISON.md)，可运行代码在 `go/main.go`；测试用 `go test ./...`（输出与 Rust 版本一致）。
+
 ## 学习目标
 
 - 用 `mod` / `pub` / `use` 组织多文件 crate

@@ -14,6 +14,8 @@ curl -X POST http://127.0.0.1:3000/echo \
   -H 'content-type: application/json' -d '{"msg":"hi"}'
 ```
 
+> Go 主栈读者：每个例子的 Go 平行写法见 [GO_COMPARISON.md](GO_COMPARISON.md)，可运行代码在 `go/main.go`（HTTP 行为与 Rust 版本对应）。
+
 端口冲突时用 `PORT=8080 cargo run -p ch12_axum_basics`。
 
 ## 学习目标
