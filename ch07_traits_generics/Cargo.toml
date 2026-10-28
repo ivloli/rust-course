@@ -1,0 +1,5 @@
+[package]
+name = "ch07_traits_generics"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
